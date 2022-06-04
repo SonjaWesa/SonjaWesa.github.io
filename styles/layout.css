@@ -1,0 +1,62 @@
+//*layoutmuotoilut*//
+body {
+  margin: 0;
+  font-size: 100%;
+  font-family: Verdana, Tahoma, sans-serif;
+  background-color: white;
+}
+
+main {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+  height: 2000px;
+}
+
+header {
+  padding: 0.25em;
+  background-color: #252424;
+  color: #f0ebeb;
+  text-align: center;
+}
+
+nav {
+}
+nav.right {
+}
+nav.left {
+}
+//*pic, briiffi teksti*//
+section.one {
+}
+article.pic {
+}
+article.hello {
+}
+//*work, school*//
+section.two {
+}
+article.career {
+}
+article.work {
+}
+article.school {
+}
+//*harrastus*//
+section.three {
+}
+article.hobby {
+}
+article.data {
+}
+article.foto {
+}
+article.food {
+}
+//*vieritys ja contact *//
+aside {
+}
+//*footer ja sos.media*//
+footer {
+}

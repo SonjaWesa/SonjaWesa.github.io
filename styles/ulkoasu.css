@@ -1,0 +1,224 @@
+html {
+  scroll-behavior: smooth;
+}
+/*yleismuotoilut*/
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #1d1d1d;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+header {
+  background-color: #1d1d1d;
+  height: auto;
+  text-align: center;
+}
+section.page {
+  max-width: 100em;
+  margin: auto;
+  background-color: #1d1d1d;
+  min-height: 100vh;
+  overflow: auto;
+}
+p {
+  text-indent: 2em;
+}
+
+i {
+  color: whitesmoke;
+}
+
+#kuva {
+  width: 50%;
+  height: auto;
+  margin-left: 15%;
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 900px) {
+  .page {
+    min-height: 100vh;
+  }
+}
+/*nav määritteet ja linkit omassa tiedostossa*/
+
+/*pic, briiffi teksti*/
+
+article.pic {
+  display: inline;
+  max-width: 20vw;
+  min-height: auto;
+  background-color: #55617c;
+  margin-top: 2.25em;
+  margin-bottom: 2em;
+  float: left;
+  margin-left: 4%;
+  margin-right: 6%;
+  text-align: center;
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.2);
+}
+.sw {
+  border-radius: 50%;
+  width: 70%;
+  height: auto;
+  margin: 0.25em;
+}
+@media (max-width: 900px) {
+  .pic,
+  .sw {
+    display: none;
+    width: 0;
+  }
+}
+
+article.hello {
+  display: inline;
+  width: 61.7%;
+  min-height: 17.5em;
+  background-color: #55617c;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.2);
+}
+
+/*väliotsikot*/
+.career,
+.hobby,
+.contact {
+  display: inline;
+  width: 92%;
+  max-height: 5em;
+  background-color: #55617c;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  float: left;
+  margin-left: 4%;
+  text-align: center;
+  padding-left: 1em;
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.2);
+}
+/*ura articles*/
+
+.work,
+.school {
+  display: inline;
+  width: 44%;
+  height: auto;
+  background-color: #55617c;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  float: left;
+  margin-left: 4%;
+  margin-right: 2%;
+  padding: 1em;
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.2);
+}
+.school {
+  margin-right: 4%;
+  margin-left: 2%;
+}
+
+@media (max-width: 800px) {
+  .work,
+  .school {
+    width: 90%;
+    margin-bottom: 0;
+    margin-top: 1.5em;
+    margin-left: 5%;
+  }
+}
+
+/*harrastukset articles*/
+.data,
+.foto,
+.food {
+  display: inline;
+  width: 26.6%;
+  height: auto;
+  background-color: #55617c;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  float: left;
+  margin-left: 4%;
+  margin-right: 2%;
+  padding: 1em;
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 900px) {
+  .data,
+  .foto,
+  .food,
+  .info {
+    width: 90%;
+    margin-bottom: 0.25em;
+    margin-top: 1em;
+    margin-left: 5%;
+  }
+}
+
+/*Yhteystiedot*/
+
+.info {
+  display: inline;
+  width: 80%;
+  height: auto;
+  background-color: #55617c;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  float: left;
+  margin-left: 10%;
+  margin-right: 10%;
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 900px) {
+  .info {
+    min-width: 100px;
+  }
+}
+
+address {
+  text-align: center;
+}
+
+/*Sivunvieritys*/
+aside {
+  position: fixed;
+  top: 80%;
+  right: 1%;
+  -webkit-transform: translateY(-80%);
+  -ms-transform: translateY(-80%);
+  transform: translateY(-80%);
+}
+
+aside a {
+  display: block;
+  transition: 0.3s;
+}
+
+aside a:hover {
+  font-size: 3em;
+}
+
+/*footer*/
+footer {
+  display: block;
+  max-width: 91em;
+  height: 4em;
+  margin: auto;
+  margin-top: 2em;
+  background-color: rgba(30, 42, 92, 0.4);
+  padding: 1em;
+}

@@ -1,0 +1,92 @@
+/*TÄSSÄ TIEDOSTOSSA FONTTIMÄÄRITYKSET*/
+
+/*layoutmuotoilut*/
+body {
+  font-size: 100%;
+  font-family: Verdana, Tahoma, sans-serif;
+}
+/*pic ja navi*/
+nav {
+  text-align: right;
+}
+/*fontit (tallessa tarvittaessa
+
+.barlow {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-size: 1.25em;
+  color: whitesmoke;
+  padding-right: 1em;
+  padding-bottom: 1.8em;
+}
+.cinzel {
+  font-family: "Cinzel", serif;
+  font-weight: 500;
+  font-size: 1.5em;
+  color: whitesmoke;
+  padding-left: 1em;
+}
+*/
+/* briiffi teksti*/
+
+article.hello {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-size: 1.1em;
+  color: whitesmoke;
+  padding: 1em;
+  letter-spacing: normal;
+  text-align: left;
+}
+/*väliotsikot*/
+
+article.career,
+.hobby,
+.contact {
+  font-family: "Cinzel", serif;
+  font-weight: 500;
+  font-size: 1em;
+  color: whitesmoke;
+  letter-spacing: 0.25em;
+}
+/*sisältötekstit*/
+article.work,
+.school,
+.data,
+.foto,
+.food,
+.info {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-size: 1.1em;
+  color: whitesmoke;
+  letter-spacing: normal;
+  text-align: left;
+}
+
+/*vieritys ja contact */
+aside {
+  color: whitesmoke;
+  font-size: 2.25em;
+  text-align: center;
+}
+aside a:hover {
+  font-size: 3em;
+}
+
+a {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-size: 1.1em;
+  color: whitesmoke;
+  letter-spacing: normal;
+}
+/*footer ja sos.media*/
+footer {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-size: 1.1em;
+  color: whitesmoke;
+  letter-spacing: normal;
+  text-align: center;
+}
